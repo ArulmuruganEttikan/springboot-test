@@ -1,0 +1,136 @@
+2023-08-15 20:40:02,469 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [http-nio-8080-exec-2] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-08-15 20:40:02,470 INFO org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-2] Initializing Servlet 'dispatcherServlet'
+2023-08-15 20:40:02,471 INFO org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-2] Completed initialization in 1 ms
+2023-08-15 20:40:02,534 INFO com.test.springboot.bank.controller.CustomerController [http-nio-8080-exec-2] 1213123
+2023-08-15 20:54:33,748 INFO org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin [RMI TCP Connection(24)-127.0.0.1] Application shutdown requested.
+2023-08-15 20:54:34,172 INFO org.apache.catalina.core.StandardService [RMI TCP Connection(24)-127.0.0.1] Stopping service [Tomcat]
+2023-08-15 20:54:34,197 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [RMI TCP Connection(24)-127.0.0.1] Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-08-15 20:54:34,268 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [RMI TCP Connection(24)-127.0.0.1] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-08-15 20:54:34,314 INFO com.zaxxer.hikari.HikariDataSource [RMI TCP Connection(24)-127.0.0.1] HikariPool-1 - Shutdown initiated...
+2023-08-15 20:54:34,428 INFO com.zaxxer.hikari.HikariDataSource [RMI TCP Connection(24)-127.0.0.1] HikariPool-1 - Shutdown completed.
+2023-08-15 20:54:58,167 INFO com.test.springboot.bank.SpringbootTestApplication [main] Starting SpringbootTestApplication using Java 17.0.4.1 on Suji with PID 10992 (C:\Users\DELL\Desktop\springboot-test\target\classes started by DELL in C:\Users\DELL\Desktop\springboot-test)
+2023-08-15 20:54:58,171 DEBUG com.test.springboot.bank.SpringbootTestApplication [main] Running with Spring Boot v2.7.14, Spring v5.3.29
+2023-08-15 20:54:58,171 INFO com.test.springboot.bank.SpringbootTestApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-08-15 20:54:59,095 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-08-15 20:54:59,181 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 69 ms. Found 3 JPA repository interfaces.
+2023-08-15 20:54:59,911 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2023-08-15 20:54:59,925 INFO org.apache.catalina.core.StandardService [main] Starting service [Tomcat]
+2023-08-15 20:54:59,926 INFO org.apache.catalina.core.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/9.0.78]
+2023-08-15 20:55:00,100 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [main] Initializing Spring embedded WebApplicationContext
+2023-08-15 20:55:00,101 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1844 ms
+2023-08-15 20:55:00,382 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-08-15 20:55:00,479 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.6.15.Final
+2023-08-15 20:55:00,748 INFO org.hibernate.annotations.common.Version [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-08-15 20:55:00,918 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2023-08-15 20:55:01,423 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2023-08-15 20:55:01,453 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2023-08-15 20:55:02,338 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-08-15 20:55:02,355 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-08-15 20:55:02,981 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-08-15 20:55:03,426 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2023-08-15 20:55:03,440 INFO com.test.springboot.bank.SpringbootTestApplication [main] Started SpringbootTestApplication in 5.885 seconds (JVM running for 7.032)
+2023-08-15 20:55:25,525 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [http-nio-8080-exec-2] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-08-15 20:55:25,526 INFO org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-2] Initializing Servlet 'dispatcherServlet'
+2023-08-15 20:55:25,528 INFO org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-2] Completed initialization in 2 ms
+2023-08-15 20:55:25,572 INFO com.test.springboot.bank.controller.CustomerController [http-nio-8080-exec-2] 1213123
+2023-08-15 21:16:01,573 INFO org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin [RMI TCP Connection(29)-127.0.0.1] Application shutdown requested.
+2023-08-15 21:16:01,595 INFO org.apache.catalina.core.StandardService [RMI TCP Connection(29)-127.0.0.1] Stopping service [Tomcat]
+2023-08-15 21:16:01,598 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [RMI TCP Connection(29)-127.0.0.1] Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-08-15 21:16:01,611 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [RMI TCP Connection(29)-127.0.0.1] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-08-15 21:16:01,614 INFO com.zaxxer.hikari.HikariDataSource [RMI TCP Connection(29)-127.0.0.1] HikariPool-1 - Shutdown initiated...
+2023-08-15 21:16:01,634 INFO com.zaxxer.hikari.HikariDataSource [RMI TCP Connection(29)-127.0.0.1] HikariPool-1 - Shutdown completed.
+2023-08-15 21:16:10,894 INFO com.test.springboot.bank.SpringbootTestApplication [main] Starting SpringbootTestApplication using Java 17.0.4.1 on Suji with PID 18772 (C:\Users\DELL\Desktop\springboot-test\target\classes started by DELL in C:\Users\DELL\Desktop\springboot-test)
+2023-08-15 21:16:10,897 DEBUG com.test.springboot.bank.SpringbootTestApplication [main] Running with Spring Boot v2.7.14, Spring v5.3.29
+2023-08-15 21:16:10,898 INFO com.test.springboot.bank.SpringbootTestApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-08-15 21:16:11,736 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-08-15 21:16:11,817 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 66 ms. Found 3 JPA repository interfaces.
+2023-08-15 21:16:12,467 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2023-08-15 21:16:12,484 INFO org.apache.catalina.core.StandardService [main] Starting service [Tomcat]
+2023-08-15 21:16:12,485 INFO org.apache.catalina.core.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/9.0.78]
+2023-08-15 21:16:12,640 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [main] Initializing Spring embedded WebApplicationContext
+2023-08-15 21:16:12,640 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1666 ms
+2023-08-15 21:16:12,898 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-08-15 21:16:12,993 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.6.15.Final
+2023-08-15 21:16:13,253 INFO org.hibernate.annotations.common.Version [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-08-15 21:16:13,398 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2023-08-15 21:16:13,855 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2023-08-15 21:16:13,880 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2023-08-15 21:16:14,830 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-08-15 21:16:14,846 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-08-15 21:16:15,425 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-08-15 21:16:15,857 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2023-08-15 21:16:15,876 INFO com.test.springboot.bank.SpringbootTestApplication [main] Started SpringbootTestApplication in 5.553 seconds (JVM running for 6.539)
+2023-08-15 21:16:24,291 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [http-nio-8080-exec-2] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-08-15 21:16:24,291 INFO org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-2] Initializing Servlet 'dispatcherServlet'
+2023-08-15 21:16:24,295 INFO org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-2] Completed initialization in 4 ms
+2023-08-15 21:16:24,331 INFO com.test.springboot.bank.controller.CustomerController [http-nio-8080-exec-2] 1213123
+2023-08-15 21:16:39,811 INFO org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin [RMI TCP Connection(7)-127.0.0.1] Application shutdown requested.
+2023-08-15 21:16:39,835 INFO org.apache.catalina.core.StandardService [RMI TCP Connection(7)-127.0.0.1] Stopping service [Tomcat]
+2023-08-15 21:16:39,847 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [RMI TCP Connection(7)-127.0.0.1] Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-08-15 21:16:39,870 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [RMI TCP Connection(7)-127.0.0.1] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-08-15 21:16:39,873 INFO com.zaxxer.hikari.HikariDataSource [RMI TCP Connection(7)-127.0.0.1] HikariPool-1 - Shutdown initiated...
+2023-08-15 21:16:39,915 INFO com.zaxxer.hikari.HikariDataSource [RMI TCP Connection(7)-127.0.0.1] HikariPool-1 - Shutdown completed.
+2023-08-15 21:27:26,835 INFO com.test.springboot.bank.SpringbootTestApplication [main] Starting SpringbootTestApplication using Java 17.0.4.1 on Suji with PID 17904 (C:\Users\DELL\Desktop\springboot-test\target\classes started by DELL in C:\Users\DELL\Desktop\springboot-test)
+2023-08-15 21:27:26,838 DEBUG com.test.springboot.bank.SpringbootTestApplication [main] Running with Spring Boot v2.7.14, Spring v5.3.29
+2023-08-15 21:27:26,839 INFO com.test.springboot.bank.SpringbootTestApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-08-15 21:27:27,914 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-08-15 21:27:28,024 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 95 ms. Found 3 JPA repository interfaces.
+2023-08-15 21:27:28,830 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2023-08-15 21:27:28,845 INFO org.apache.catalina.core.StandardService [main] Starting service [Tomcat]
+2023-08-15 21:27:28,846 INFO org.apache.catalina.core.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/9.0.78]
+2023-08-15 21:27:29,034 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [main] Initializing Spring embedded WebApplicationContext
+2023-08-15 21:27:29,035 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 2103 ms
+2023-08-15 21:27:29,361 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-08-15 21:27:29,479 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.6.15.Final
+2023-08-15 21:27:29,814 INFO org.hibernate.annotations.common.Version [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-08-15 21:27:30,003 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2023-08-15 21:27:30,619 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2023-08-15 21:27:30,648 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2023-08-15 21:27:31,663 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-08-15 21:27:31,685 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-08-15 21:27:32,312 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-08-15 21:27:32,756 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2023-08-15 21:27:32,771 INFO com.test.springboot.bank.SpringbootTestApplication [main] Started SpringbootTestApplication in 6.594 seconds (JVM running for 7.778)
+2023-08-15 21:27:42,598 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [http-nio-8080-exec-2] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-08-15 21:27:42,598 INFO org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-2] Initializing Servlet 'dispatcherServlet'
+2023-08-15 21:27:42,600 INFO org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-2] Completed initialization in 2 ms
+2023-08-15 21:28:19,251 INFO com.test.springboot.bank.service.AccountServiceImpl [http-nio-8080-exec-3] craeteAccount - Customer not found
+2023-08-15 21:33:02,389 INFO com.test.springboot.bank.service.AccountServiceImpl [http-nio-8080-exec-7] craeteAccount - Customer not found
+2023-08-15 21:54:04,029 INFO org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin [RMI TCP Connection(35)-127.0.0.1] Application shutdown requested.
+2023-08-15 21:54:04,046 INFO org.apache.catalina.core.StandardService [RMI TCP Connection(35)-127.0.0.1] Stopping service [Tomcat]
+2023-08-15 21:54:04,049 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [RMI TCP Connection(35)-127.0.0.1] Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-08-15 21:54:04,062 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [RMI TCP Connection(35)-127.0.0.1] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-08-15 21:54:04,065 INFO com.zaxxer.hikari.HikariDataSource [RMI TCP Connection(35)-127.0.0.1] HikariPool-1 - Shutdown initiated...
+2023-08-15 21:54:04,087 INFO com.zaxxer.hikari.HikariDataSource [RMI TCP Connection(35)-127.0.0.1] HikariPool-1 - Shutdown completed.
+2023-08-15 21:54:52,997 INFO com.test.springboot.bank.SpringbootTestApplication [main] Starting SpringbootTestApplication using Java 17.0.4.1 on Suji with PID 13388 (C:\Users\DELL\Desktop\springboot-test\target\classes started by DELL in C:\Users\DELL\Desktop\springboot-test)
+2023-08-15 21:54:53,001 DEBUG com.test.springboot.bank.SpringbootTestApplication [main] Running with Spring Boot v2.7.14, Spring v5.3.29
+2023-08-15 21:54:53,002 INFO com.test.springboot.bank.SpringbootTestApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-08-15 21:54:53,802 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-08-15 21:54:53,880 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 66 ms. Found 4 JPA repository interfaces.
+2023-08-15 21:54:54,546 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2023-08-15 21:54:54,561 INFO org.apache.catalina.core.StandardService [main] Starting service [Tomcat]
+2023-08-15 21:54:54,562 INFO org.apache.catalina.core.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/9.0.78]
+2023-08-15 21:54:54,715 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [main] Initializing Spring embedded WebApplicationContext
+2023-08-15 21:54:54,715 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1634 ms
+2023-08-15 21:54:54,965 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-08-15 21:54:55,058 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.6.15.Final
+2023-08-15 21:54:55,339 INFO org.hibernate.annotations.common.Version [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-08-15 21:54:55,500 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2023-08-15 21:54:55,901 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2023-08-15 21:54:55,925 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2023-08-15 21:54:56,668 INFO org.hibernate.tuple.PojoInstantiator [main] HHH000182: No default (no-argument) constructor for class: com.test.springboot.bank.entity.AuditDetail (class must be instantiated by Interceptor)
+2023-08-15 21:54:57,472 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-08-15 21:54:57,488 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-08-15 21:54:58,154 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-08-15 21:54:58,576 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2023-08-15 21:54:58,591 INFO com.test.springboot.bank.SpringbootTestApplication [main] Started SpringbootTestApplication in 6.14 seconds (JVM running for 7.154)
+2023-08-15 21:56:19,441 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [http-nio-8080-exec-2] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-08-15 21:56:19,442 INFO org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-2] Initializing Servlet 'dispatcherServlet'
+2023-08-15 21:56:19,446 INFO org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-2] Completed initialization in 4 ms
+2023-08-15 21:58:02,627 INFO com.test.springboot.bank.service.TransactionServiceImpl [http-nio-8080-exec-1] withdrawl completed successfully
+2023-08-15 23:04:06,186 INFO org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin [RMI TCP Connection(77)-127.0.0.1] Application shutdown requested.
+2023-08-15 23:04:06,376 INFO org.apache.catalina.core.StandardService [RMI TCP Connection(77)-127.0.0.1] Stopping service [Tomcat]
+2023-08-15 23:04:06,395 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [RMI TCP Connection(77)-127.0.0.1] Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-08-15 23:04:06,491 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [RMI TCP Connection(77)-127.0.0.1] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-08-15 23:04:06,547 INFO com.zaxxer.hikari.HikariDataSource [RMI TCP Connection(77)-127.0.0.1] HikariPool-1 - Shutdown initiated...
+2023-08-15 23:04:06,574 INFO com.zaxxer.hikari.HikariDataSource [RMI TCP Connection(77)-127.0.0.1] HikariPool-1 - Shutdown completed.
